@@ -15,6 +15,6 @@ RUN apt update && apt install -y --no-install-recommends \
     rm -rf /tmp/umu && \
     cpak-clean-junk
 
-ENV PATH="/usr/local/bin:/app/bin:/usr/bin:/bin"
+ENV PATH="/usr/local/bin:/usr/bin:/bin"
 
 ENTRYPOINT ["/usr/local/bin/umu-run"]

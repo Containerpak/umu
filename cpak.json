@@ -1,7 +1,7 @@
 {
   "manifest_version": "1.0",
   "name": "UMU",
-  "description": "UMU launcher with the Wine runtime required by Proton games.",
+  "description": "UMU launcher with the desktop base required by Proton games.",
   "version": "1.4.4",
   "image": "ghcr.io/containerpak/umu:main",
   "binaries": ["/usr/local/bin/umu-run"],
