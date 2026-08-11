@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v2.json",
   "manifest_version": "2.0",
   "name": "UMU",
   "description": "UMU launcher with the desktop base required by Proton games.",
@@ -30,12 +31,17 @@
     "deviceUsb": false,
     "deviceAll": true,
     "notification": true,
+    "openURI": false,
     "filesystem": [
       {"path": "home", "access": "read-write"}
     ],
     "env": [],
     "network": true,
     "process": false,
+    "userNamespaces": false,
+    "memoryMaxMB": 0,
+    "cpuQuota": 0,
+    "pidsMax": 0,
     "asRoot": false,
     "allowedHostCommands": []
   }
