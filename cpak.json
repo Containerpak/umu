@@ -30,10 +30,9 @@
     "deviceUsb": false,
     "deviceAll": true,
     "notification": true,
-    "fsHost": false,
-    "fsHostEtc": false,
-    "fsHostHome": true,
-    "fsExtra": [],
+    "filesystem": [
+      {"path": "home", "access": "read-write"}
+    ],
     "env": [],
     "network": true,
     "process": false,
