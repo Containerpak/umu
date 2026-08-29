@@ -4,7 +4,7 @@
   "name": "UMU",
   "description": "UMU launcher with the desktop base required by Proton games.",
   "version": "1.4.4",
-  "image": "ghcr.io/containerpak/umu@sha256:995d03d1d9e93f8c8f15602c23fb0c748fbf39e5783a7823a112ae5db35aee4e",
+  "image": "ghcr.io/containerpak/umu@sha256:ba74e2d236753ae80563702e259fe32dbd0c4dcd7e80458ed7800439c94ad4b4",
   "binaries": [
     "/usr/local/bin/umu-run"
   ],
